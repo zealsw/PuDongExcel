@@ -1,0 +1,572 @@
+2021-09-04 15:51:40 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 9668 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 15:51:40 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 15:51:42 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 15:51:42 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:51:42 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 15:51:42 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 15:51:42 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 15:51:42 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 15:51:42 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2272 ms
+ 2021-09-04 15:51:42 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 15:52:03 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 15:52:03 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 15:52:03 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 15:52:03 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 15:52:04 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 15:52:04 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 15:52:04 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:52:04 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 15:52:04 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 15:52:04 c.HealthApplication 59 [INFO] Started HealthApplication in 24.954 seconds (JVM running for 25.355)
+ 2021-09-04 15:52:54 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 6644 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 15:52:54 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 15:52:56 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 15:52:56 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:52:56 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 15:52:56 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 15:52:56 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 15:52:56 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 15:52:56 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2280 ms
+ 2021-09-04 15:52:56 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 15:52:56 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 15:52:56 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 15:52:56 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 15:52:56 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 15:52:57 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 15:52:57 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 15:52:57 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:52:57 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 15:52:57 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 15:52:57 c.HealthApplication 59 [INFO] Started HealthApplication in 3.787 seconds (JVM running for 4.57)
+ 2021-09-04 15:53:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:54:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:55:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:56:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:57:27 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 13396 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 15:57:27 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 15:57:29 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 15:57:29 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:57:29 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 15:57:29 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 15:57:29 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 15:57:29 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 15:57:29 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2281 ms
+ 2021-09-04 15:57:29 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 15:57:29 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 15:57:29 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 15:57:29 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 15:57:29 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 15:57:30 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 15:57:30 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 15:57:30 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:57:30 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 15:57:30 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 15:57:30 c.HealthApplication 59 [INFO] Started HealthApplication in 3.815 seconds (JVM running for 4.228)
+ 2021-09-04 15:58:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:59:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 15:59:08 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 13224 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 15:59:08 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 15:59:11 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 15:59:11 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:59:11 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 15:59:11 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 15:59:11 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 15:59:11 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 15:59:11 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2299 ms
+ 2021-09-04 15:59:11 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 15:59:11 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 15:59:11 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 15:59:11 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 15:59:11 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 15:59:12 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 15:59:12 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 15:59:12 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 15:59:12 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 15:59:12 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 15:59:12 c.HealthApplication 59 [INFO] Started HealthApplication in 3.822 seconds (JVM running for 4.274)
+ 2021-09-04 16:00:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:01:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:01:54 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 7776 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:01:54 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:01:56 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:01:56 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:01:56 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:01:56 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:01:56 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:01:56 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:01:56 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2410 ms
+ 2021-09-04 16:01:56 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:01:56 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:01:56 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:01:56 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:01:56 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:01:57 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:01:57 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:01:57 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:01:57 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:01:57 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:01:57 c.HealthApplication 59 [INFO] Started HealthApplication in 3.937 seconds (JVM running for 4.322)
+ 2021-09-04 16:02:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:03:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:03:47 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 15972 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:03:47 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:03:49 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:03:49 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:03:49 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:03:49 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:03:49 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:03:49 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:03:49 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2482 ms
+ 2021-09-04 16:03:49 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:03:49 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:03:49 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:03:49 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:03:49 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:03:50 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:03:50 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:03:50 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:03:50 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:03:50 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:03:50 c.HealthApplication 59 [INFO] Started HealthApplication in 4.204 seconds (JVM running for 4.766)
+ 2021-09-04 16:04:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:05:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:06:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:07:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:08:40 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 15996 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:08:40 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:08:43 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:08:43 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:08:43 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:08:43 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:08:43 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:08:43 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:08:43 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2913 ms
+ 2021-09-04 16:08:43 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:08:44 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:08:44 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:08:44 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:08:44 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:08:44 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:08:44 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:08:45 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:08:45 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:08:45 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:08:45 c.HealthApplication 59 [INFO] Started HealthApplication in 4.777 seconds (JVM running for 5.316)
+ 2021-09-04 16:09:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:10:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:10:55 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 4148 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:10:55 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:10:57 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:10:57 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:10:57 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:10:57 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:10:57 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:10:57 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:10:57 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2321 ms
+ 2021-09-04 16:10:57 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:10:58 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:10:58 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:10:58 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:10:58 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:10:58 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:10:58 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:10:58 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:10:58 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:10:58 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:10:58 c.HealthApplication 59 [INFO] Started HealthApplication in 3.842 seconds (JVM running for 4.268)
+ 2021-09-04 16:11:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:12:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:17:44 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 6172 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:17:44 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:17:47 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:17:47 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:17:47 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:17:47 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:17:47 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:17:47 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:17:47 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2544 ms
+ 2021-09-04 16:17:47 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:17:47 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:17:47 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:17:47 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:17:47 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:17:48 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:17:48 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:17:48 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:17:48 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:17:48 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:17:48 c.HealthApplication 59 [INFO] Started HealthApplication in 4.592 seconds (JVM running for 5.161)
+ 2021-09-04 16:18:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:19:00 c.h.c.j.PressureJob 44 [INFO] 血压定时器启动
+ 2021-09-04 16:21:06 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 13516 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 16:21:06 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 16:21:08 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 16:21:08 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:21:08 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 16:21:08 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 16:21:08 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 16:21:08 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 16:21:08 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2501 ms
+ 2021-09-04 16:21:09 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 16:21:09 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 16:21:09 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 16:21:09 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 16:21:09 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 16:21:09 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 16:21:09 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 16:21:09 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 16:21:10 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 16:21:10 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 16:21:10 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 16:21:10 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 16:21:10 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 16:21:10 c.HealthApplication 59 [INFO] Started HealthApplication in 4.378 seconds (JVM running for 4.846)
+ 2021-09-04 16:22:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:23:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:24:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:25:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:26:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:27:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:28:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:29:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:30:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:31:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:32:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:33:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:34:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:35:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:36:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:37:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:38:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:39:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:40:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:41:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:42:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:43:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:44:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:45:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:46:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:47:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:48:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:49:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:50:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:51:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:52:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:53:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:54:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:55:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:56:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:57:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:58:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 16:59:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:00:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:01:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:02:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:03:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:04:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:05:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:06:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:07:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:08:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:09:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:10:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:11:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:12:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:13:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:14:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:15:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:16:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:17:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:18:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:19:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:20:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:21:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:22:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:23:00 c.h.c.j.PressureJob 35 [INFO] 血压定时器启动
+ 2021-09-04 17:23:08 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 9852 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:23:08 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:23:10 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:23:10 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:23:10 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:23:10 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:23:10 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:23:10 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:23:10 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2475 ms
+ 2021-09-04 17:23:11 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:23:11 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:23:11 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:23:11 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:23:11 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:23:11 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:23:11 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:23:11 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:23:11 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:23:12 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:23:12 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:23:12 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:23:12 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:23:12 c.HealthApplication 59 [INFO] Started HealthApplication in 4.272 seconds (JVM running for 4.722)
+ 2021-09-04 17:24:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:25:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:25:32 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 11296 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:25:32 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:25:35 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:25:35 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:25:35 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:25:35 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:25:35 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:25:35 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:25:35 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2370 ms
+ 2021-09-04 17:25:35 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:25:35 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:25:35 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:25:35 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:25:35 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:25:35 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:25:36 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:25:36 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:25:36 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:25:36 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:25:36 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:25:36 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:25:36 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:25:36 c.HealthApplication 59 [INFO] Started HealthApplication in 4.179 seconds (JVM running for 4.753)
+ 2021-09-04 17:26:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:27:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:28:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:29:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:30:01 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 11840 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:30:01 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:30:03 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:30:03 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:30:03 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:30:03 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:30:03 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:30:04 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:30:04 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2385 ms
+ 2021-09-04 17:30:04 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:30:04 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:30:04 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:30:04 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:30:04 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:30:04 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:30:04 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:30:04 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:30:05 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:30:05 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:30:05 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:30:05 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:30:05 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:30:05 c.HealthApplication 59 [INFO] Started HealthApplication in 4.171 seconds (JVM running for 4.618)
+ 2021-09-04 17:31:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:32:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:33:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:34:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:35:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:36:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:37:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:38:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:39:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:40:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:41:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:42:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:43:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:44:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:45:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:46:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:47:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:48:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:49:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:50:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:51:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:52:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:52:59 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 17044 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:52:59 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:53:01 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:53:01 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:53:01 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:53:01 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:53:01 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:53:01 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:53:01 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2488 ms
+ 2021-09-04 17:53:01 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:53:02 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:53:02 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:53:02 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:53:02 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:53:02 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:53:02 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:53:02 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:53:02 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:53:03 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:53:03 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:53:03 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:53:03 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:53:03 c.HealthApplication 59 [INFO] Started HealthApplication in 4.358 seconds (JVM running for 4.822)
+ 2021-09-04 17:53:43 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 17:53:43 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 17:53:43 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 6 ms
+ 2021-09-04 17:54:00 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:54:23 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 1304 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:54:23 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:54:25 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:54:26 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:54:26 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:54:26 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:54:26 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:54:26 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:54:26 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2373 ms
+ 2021-09-04 17:54:26 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:54:26 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:54:26 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:54:26 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:54:26 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:54:26 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:54:26 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:54:26 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:54:27 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:54:27 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:54:27 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:54:27 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:54:27 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:54:27 c.HealthApplication 59 [INFO] Started HealthApplication in 4.19 seconds (JVM running for 4.649)
+ 2021-09-04 17:54:56 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 17:54:56 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 17:54:56 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 7 ms
+ 2021-09-04 17:54:56 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 17:55:41 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 12488 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 17:55:41 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 17:55:44 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 17:55:44 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:55:44 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 17:55:44 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 17:55:44 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 17:55:44 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 17:55:44 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2450 ms
+ 2021-09-04 17:55:44 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 17:55:44 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 17:55:44 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 17:55:44 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 17:55:44 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 17:55:45 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 17:55:45 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 17:55:45 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 17:55:45 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 17:55:45 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 17:55:45 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 17:55:45 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 17:55:45 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 17:55:45 c.HealthApplication 59 [INFO] Started HealthApplication in 4.191 seconds (JVM running for 4.636)
+ 2021-09-04 17:58:23 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 17:58:23 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 17:58:23 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 6 ms
+ 2021-09-04 17:58:24 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 18:23:37 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 16280 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 18:23:37 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 18:23:39 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 18:23:39 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:23:39 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 18:23:39 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 18:23:39 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 18:23:39 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 18:23:39 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2393 ms
+ 2021-09-04 18:23:39 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 18:23:39 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 18:23:39 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 18:23:39 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 18:23:39 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 18:23:40 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 18:23:40 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 18:23:40 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 18:23:40 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 18:23:40 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 18:23:41 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:23:41 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 18:23:41 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 18:23:41 c.HealthApplication 59 [INFO] Started HealthApplication in 4.233 seconds (JVM running for 4.696)
+ 2021-09-04 18:25:32 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 18:25:32 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 18:25:32 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 5 ms
+ 2021-09-04 18:25:32 c.h.c.j.PressureJob 37 [INFO] 血压定时器启动
+ 2021-09-04 18:27:38 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 7892 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 18:27:38 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 18:27:40 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 18:27:40 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:27:40 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 18:27:40 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 18:27:40 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 18:27:40 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 18:27:40 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2366 ms
+ 2021-09-04 18:27:40 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 18:27:40 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 18:27:40 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 18:27:40 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 18:27:40 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 18:27:41 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 18:27:41 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 18:27:41 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 18:27:41 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 18:27:41 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 18:27:41 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:27:41 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 18:27:41 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 18:27:41 c.HealthApplication 59 [INFO] Started HealthApplication in 4.176 seconds (JVM running for 4.621)
+ 2021-09-04 18:28:19 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 18:28:19 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 18:28:19 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 5 ms
+ 2021-09-04 18:28:19 c.h.c.j.PressureJob 38 [INFO] 血压定时器启动
+ 2021-09-04 18:29:06 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 6092 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 18:29:06 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 18:29:09 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 18:29:09 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:29:09 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 18:29:09 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 18:29:09 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 18:29:09 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 18:29:09 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2596 ms
+ 2021-09-04 18:29:09 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 18:29:09 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 18:29:09 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 18:29:09 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 18:29:09 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 18:29:10 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 18:29:10 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 18:29:10 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 18:29:10 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 18:29:10 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 18:29:10 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:29:10 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 18:29:10 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 18:29:10 c.HealthApplication 59 [INFO] Started HealthApplication in 4.391 seconds (JVM running for 4.838)
+ 2021-09-04 18:30:52 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 18:30:52 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 18:30:52 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 7 ms
+ 2021-09-04 18:30:52 c.h.c.j.PressureJob 38 [INFO] 血压定时器启动
+ 2021-09-04 18:39:15 c.HealthApplication 50 [INFO] Starting HealthApplication on DESKTOP-7GORQC5 with PID 16212 (started by 菠萝 in C:\Users\菠萝\Downloads\Center)
+ 2021-09-04 18:39:15 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-09-04 18:39:17 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-09-04 18:39:17 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:39:17 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-09-04 18:39:17 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-09-04 18:39:17 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Program Files\Git\cmd;C:\Users\菠萝\AppData\Local\Microsoft\WindowsApps;;.]
+ 2021-09-04 18:39:17 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-09-04 18:39:17 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2374 ms
+ 2021-09-04 18:39:17 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-09-04 18:39:17 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-09-04 18:39:17 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-09-04 18:39:17 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-09-04 18:39:17 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-09-04 18:39:18 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 447 [INFO] Autowired annotation is not supported on static fields: static java.lang.String com.hesicare.common.jobs.BmiJob.path_begin
+ 2021-09-04 18:39:18 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 471 [INFO] Autowired annotation should only be used on methods with parameters: public void com.hesicare.common.jobs.GlucoseJob.doXueTangIt() throws java.io.IOException
+ 2021-09-04 18:39:18 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-09-04 18:39:18 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-09-04 18:39:18 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-09-04 18:39:19 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-09-04 18:39:19 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-09-04 18:39:19 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-09-04 18:39:19 c.HealthApplication 59 [INFO] Started HealthApplication in 4.193 seconds (JVM running for 4.644)
+ 2021-09-04 18:39:49 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 2021-09-04 18:39:49 o.s.w.s.DispatcherServlet 524 [INFO] Initializing Servlet 'dispatcherServlet'
+ 2021-09-04 18:39:49 o.s.w.s.DispatcherServlet 546 [INFO] Completed initialization in 5 ms
+ 2021-09-04 18:39:50 c.h.c.j.PressureJob 38 [INFO] 血压定时器启动
+ 

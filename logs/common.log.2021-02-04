@@ -1,0 +1,205 @@
+2021-02-04 11:34:28 c.HealthApplication 50 [INFO] Starting HealthApplication on LAPTOP-2DQQ6MCJ with PID 14360 (started by lishiwei in D:\old\部署医院归档\奉贤区\奉浦社区\Center)
+ 2021-02-04 11:34:28 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-02-04 11:34:35 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-02-04 11:34:35 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 11:34:35 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-02-04 11:34:35 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-02-04 11:34:35 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\电脑软件\Xftp\;d:\;脑软件\Xshell\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\电脑软件\Maven\apache-maven-3.6.3\bin;D:\电脑软件\TortoiseSVN\bin;D:\;脑软件\nodejs\;C:\Program Files\Git\cmd;D:\电脑软件\apache-cxf-3.4.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\lishiwei\AppData\Local\Microsoft\WindowsApps;;D:\电脑软件\idea\IntelliJ IDEA 2020.1.4\bin;;C:\Users\lishiwei\AppData\Roaming\npm;C:\Users\lishiwei\AppData\Local\Programs\Fiddler;.]
+ 2021-02-04 11:34:36 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-02-04 11:34:36 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 7693 ms
+ 2021-02-04 11:34:36 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-02-04 11:34:38 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-02-04 11:34:38 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-02-04 11:34:38 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-02-04 11:34:38 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-02-04 11:34:40 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-02-04 11:34:41 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-02-04 11:34:41 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 11:34:41 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-02-04 11:34:41 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-02-04 11:34:41 c.HealthApplication 59 [INFO] Started HealthApplication in 14.245 seconds (JVM running for 16.99)
+ 2021-02-04 11:35:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 11:35:00 c.h.c.j.GlucoseJob 128 [INFO] 请求参数 :{"dataList":[{"measureData":"18.2|mmol/L|0.6-33.3|3|2|1","measureType":"2001"}],"deviceId":"Contour7804H6106863","deviceType":"Accu-Chek","measureLocation":"3","measureMode":"1","measureOrgId":"42505784600","measureSourceId":"0002","measureTime":"Thu Oct 17 21:30:01 CST 2019","personcard":"310226195503160314"} 
+ 2021-02-04 11:35:01 c.h.c.j.GlucoseJob 133 [INFO] 返回结果 :{"code":"0","msg":"Invalid json parameter","value":null} 
+ 2021-02-04 11:35:02 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 11:36:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 11:36:00 c.h.c.j.GlucoseJob 128 [INFO] 请求参数 :{"dataList":[{"measureData":"8.4|mmol/L|0.6-33.3|1||1","measureType":"2001"}],"deviceId":"6107021","deviceType":"Accu-Chek","measureLocation":"3","measureMode":"1","measureOrgId":"42505784600","measureSourceId":"0002","measureTime":"Thu Feb 04 18:41:15 CST 2021","personcard":"532901195206140011"} 
+ 2021-02-04 11:36:00 c.h.c.j.GlucoseJob 133 [INFO] 返回结果 :{"code":"0","msg":"Invalid json parameter","value":null} 
+ 2021-02-04 11:36:01 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:14:37 c.HealthApplication 50 [INFO] Starting HealthApplication on LAPTOP-2DQQ6MCJ with PID 15380 (started by lishiwei in D:\old\部署医院归档\奉贤区\奉浦社区\Center)
+ 2021-02-04 12:14:37 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-02-04 12:14:40 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-02-04 12:14:40 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:14:40 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-02-04 12:14:40 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-02-04 12:14:40 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\电脑软件\Xftp\;d:\;脑软件\Xshell\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\电脑软件\Maven\apache-maven-3.6.3\bin;D:\电脑软件\TortoiseSVN\bin;D:\;脑软件\nodejs\;C:\Program Files\Git\cmd;D:\电脑软件\apache-cxf-3.4.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\lishiwei\AppData\Local\Microsoft\WindowsApps;;D:\电脑软件\idea\IntelliJ IDEA 2020.1.4\bin;;C:\Users\lishiwei\AppData\Roaming\npm;C:\Users\lishiwei\AppData\Local\Programs\Fiddler;.]
+ 2021-02-04 12:14:40 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-02-04 12:14:40 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 2866 ms
+ 2021-02-04 12:14:40 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-02-04 12:14:41 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-02-04 12:14:41 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-02-04 12:14:41 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-02-04 12:14:41 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-02-04 12:14:42 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-02-04 12:14:42 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-02-04 12:14:42 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:14:42 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-02-04 12:14:42 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-02-04 12:14:42 c.HealthApplication 59 [INFO] Started HealthApplication in 5.213 seconds (JVM running for 6.359)
+ 2021-02-04 12:15:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:15:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 12:15:00 c.h.c.j.GlucoseJob 128 [INFO] 请求参数 :{"dataList":[{"measureData":"8.4|mmol/L|0.6-33.3|1||1","measureType":"2001"}],"deviceId":"6107021","deviceType":"Accu-Chek","measureLocation":"3","measureMode":"1","measureOrgId":"42505784600","measureSourceId":"0002","measureTime":"Thu Feb 04 18:41:15 CST 2021","personcard":"532901195206140011"} 
+ 2021-02-04 12:15:00 c.h.c.j.GlucoseJob 133 [INFO] 返回结果 :{"code":"0","msg":"Invalid json parameter","value":null} 
+ 2021-02-04 12:16:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:16:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 12:17:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:17:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 12:18:00 c.h.c.j.GlucoseJob 31 [INFO] 血糖定时器启动
+ 2021-02-04 12:18:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:18:12 c.HealthApplication 50 [INFO] Starting HealthApplication on LAPTOP-2DQQ6MCJ with PID 18152 (started by lishiwei in D:\old\部署医院归档\奉贤区\奉浦社区\Center)
+ 2021-02-04 12:18:12 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-02-04 12:18:20 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-02-04 12:18:20 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:18:20 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-02-04 12:18:20 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-02-04 12:18:20 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\电脑软件\Xftp\;d:\;脑软件\Xshell\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\电脑软件\Maven\apache-maven-3.6.3\bin;D:\电脑软件\TortoiseSVN\bin;D:\;脑软件\nodejs\;C:\Program Files\Git\cmd;D:\电脑软件\apache-cxf-3.4.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\lishiwei\AppData\Local\Microsoft\WindowsApps;;D:\电脑软件\idea\IntelliJ IDEA 2020.1.4\bin;;C:\Users\lishiwei\AppData\Roaming\npm;C:\Users\lishiwei\AppData\Local\Programs\Fiddler;.]
+ 2021-02-04 12:18:20 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-02-04 12:18:20 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 8016 ms
+ 2021-02-04 12:18:20 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-02-04 12:18:21 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-02-04 12:18:21 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-02-04 12:18:21 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-02-04 12:18:21 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-02-04 12:18:22 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-02-04 12:18:22 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-02-04 12:18:22 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:18:22 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-02-04 12:18:22 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-02-04 12:18:22 c.HealthApplication 59 [INFO] Started HealthApplication in 11.043 seconds (JVM running for 13.672)
+ 2021-02-04 12:19:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:19:00 c.h.c.j.GlucoseJob 129 [INFO] 请求参数 :{"dataList":[{"measureData":"8.4|mmol/L|0.6-33.3|1||1","measureType":"2001"}],"deviceId":"6107021","deviceType":"Accu-Chek","measureLocation":"3","measureMode":"1","measureOrgId":"42505784600","measureSourceId":"0002","measureTime":"2021-02-04 18:41:15","personcard":"532901195206140011"} 
+ 2021-02-04 12:19:01 c.h.c.j.GlucoseJob 134 [INFO] 返回结果 :{"code":"1","msg":"保存成功","value":null} 
+ 2021-02-04 12:19:02 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:20:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:20:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:21:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:21:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:22:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:22:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:23:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:23:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:24:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:24:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:25:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:25:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:26:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:26:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:27:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:27:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:28:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:28:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:29:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:29:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:30:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:30:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:31:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:31:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:32:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:32:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:33:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:33:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:34:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:34:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:35:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:35:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:36:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:36:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:37:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:37:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:38:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:38:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:39:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:39:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:40:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:40:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:41:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:41:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:41:22 c.HealthApplication 50 [INFO] Starting HealthApplication on LAPTOP-2DQQ6MCJ with PID 10988 (started by lishiwei in D:\old\部署医院归档\奉贤区\奉浦社区\Center)
+ 2021-02-04 12:41:22 c.HealthApplication 675 [INFO] No active profile set, falling back to default profiles: default
+ 2021-02-04 12:41:30 o.s.b.w.e.t.TomcatWebServer 90 [INFO] Tomcat initialized with port(s): 7074 (http)
+ 2021-02-04 12:41:30 o.a.c.h.Http11NioProtocol 173 [INFO] Initializing ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:41:30 o.a.c.c.StandardService 173 [INFO] Starting service [Tomcat]
+ 2021-02-04 12:41:30 o.a.c.c.StandardEngine 173 [INFO] Starting Servlet Engine: Apache Tomcat/9.0.13
+ 2021-02-04 12:41:30 o.a.c.c.AprLifecycleListener 173 [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\电脑软件\Xftp\;d:\;脑软件\Xshell\;C:;Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\电脑软件\Maven\apache-maven-3.6.3\bin;D:\电脑软件\TortoiseSVN\bin;D:\;脑软件\nodejs\;C:\Program Files\Git\cmd;D:\电脑软件\apache-cxf-3.4.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\lishiwei\AppData\Local\Microsoft\WindowsApps;;D:\电脑软件\idea\IntelliJ IDEA 2020.1.4\bin;;C:\Users\lishiwei\AppData\Roaming\npm;C:\Users\lishiwei\AppData\Local\Programs\Fiddler;.]
+ 2021-02-04 12:41:30 o.a.c.c.C.[.[.[/demo] 173 [INFO] Initializing Spring embedded WebApplicationContext
+ 2021-02-04 12:41:30 o.s.w.c.ContextLoader 296 [INFO] Root WebApplicationContext: initialization completed in 7514 ms
+ 2021-02-04 12:41:30 c.b.d.d.DynamicDataSourceCreator 101 [INFO] 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+ 2021-02-04 12:41:31 c.a.d.p.DruidDataSource 930 [INFO] {dataSource-1,master} inited
+ 2021-02-04 12:41:31 c.b.d.d.DynamicRoutingDataSource 153 [INFO] 初始共加载 1 个数据源
+ 2021-02-04 12:41:31 c.b.d.d.DynamicRoutingDataSource 127 [INFO] 动态数据源-加载 master 成功
+ 2021-02-04 12:41:31 c.b.d.d.DynamicRoutingDataSource 162 [INFO] 当前的默认数据源是单数据源，数据源名为 master
+ 2021-02-04 12:41:34 o.s.s.c.ThreadPoolTaskExecutor 171 [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+ 2021-02-04 12:41:34 o.s.s.c.ThreadPoolTaskScheduler 171 [INFO] Initializing ExecutorService 'taskScheduler'
+ 2021-02-04 12:41:34 o.a.c.h.Http11NioProtocol 173 [INFO] Starting ProtocolHandler ["http-nio-7074"]
+ 2021-02-04 12:41:34 o.a.t.u.n.NioSelectorPool 173 [INFO] Using a shared selector for servlet write/read
+ 2021-02-04 12:41:34 o.s.b.w.e.t.TomcatWebServer 204 [INFO] Tomcat started on port(s): 7074 (http) with context path '/demo'
+ 2021-02-04 12:41:34 c.HealthApplication 59 [INFO] Started HealthApplication in 12.828 seconds (JVM running for 15.565)
+ 2021-02-04 12:42:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:42:00 c.h.c.j.GlucoseJob 132 [INFO] 请求参数 :{"dataList":[{"measureData":"8.4|mmol/L|0.6-33.3|1|2|1","measureType":"2001"}],"deviceId":"6107021","deviceType":"Accu-Chek","measureLocation":"3","measureMode":"1","measureOrgId":"42505784600","measureSourceId":"0002","measureTime":"2021-02-04 18:41:15","personcard":"532901195206140011"} 
+ 2021-02-04 12:42:00 c.h.c.j.GlucoseJob 137 [INFO] 返回结果 :{"code":"1","msg":"保存成功","value":null} 
+ 2021-02-04 12:42:01 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:43:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:43:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:44:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:44:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:45:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:45:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:46:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:46:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:47:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:47:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:48:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:48:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:48:00 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","bgzmbjcTimes3":"0","clsb":"1","dbp1":89,"dbp2":89,"dbp3":87,"dbpAve":91,"finishTime1":"2021-02-04 12:49:55","finishTime2":"2021-02-04 12:47:42","finishTime3":"2021-02-04 12:48:48","mb1":80,"mb2":80,"mb3":78,"mbAve":80,"sbp1":131,"sbp2":135,"sbp3":126,"sbpAve":131,"stydjcTimes1":"0","stydjcTimes2":"0","stydjcTimes3":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1978-02-25","jykh":"T13492850","jyklx":"0","meterNo":"1701921","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"310226197802252912","sourceId":"02","stationId":"000","xb":"1","xm":"顾明"} 
+ 2021-02-04 12:48:00 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"d4210c5ec7e14c6288b0623a62ee16bb"} 
+ 2021-02-04 12:49:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:49:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:50:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:50:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:51:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:51:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:52:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:52:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:53:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:53:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:54:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:54:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:54:00 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","bgzmbjcTimes3":"0","clsb":"2","dbp1":75,"dbp2":77,"dbp3":76,"dbpAve":72,"finishTime1":"2021-02-04 12:53:28","finishTime2":"2021-02-04 12:51:05","finishTime3":"2021-02-04 12:52:17","mb1":74,"mb2":74,"mb3":74,"mbAve":73,"sbp1":136,"sbp2":143,"sbp3":133,"sbpAve":131,"stydjcTimes1":"0","stydjcTimes2":"0","stydjcTimes3":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1947-11-10","jykh":"7100215910","jyklx":"1","meterNo":"1702135","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"360104194711100026","sourceId":"02","stationId":"000","xb":"2","xm":"用户46749"} 
+ 2021-02-04 12:54:00 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"374998a362364d4ebcded3043f2c02ea"} 
+ 2021-02-04 12:55:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:55:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:56:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:56:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:57:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:57:00 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","clsb":"1","dbp1":75,"dbp2":77,"dbpAve":73,"finishTime1":"2021-02-04 12:45:49","finishTime2":"2021-02-04 12:44:39","mb1":94,"mb2":92,"mbAve":96,"sbp1":123,"sbp2":125,"sbpAve":121,"stydjcTimes1":"0","stydjcTimes2":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1965-10-03","jykh":"D501AE0B7","jyklx":"0","meterNo":"9000004","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"41072119651003001X","sourceId":"02","stationId":"000","xb":"1","xm":"王爱生"} 
+ 2021-02-04 12:57:00 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"e4c693cbfb2449aa9688b67310d4565d"} 
+ 2021-02-04 12:57:01 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:58:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 12:58:00 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","bgzmbjcTimes3":"0","clsb":"2","dbp1":87,"dbp2":89,"dbp3":84,"dbpAve":86,"finishTime1":"2021-02-04 12:59:58","finishTime2":"2021-02-04 12:57:41","finishTime3":"2021-02-04 12:58:49","mb1":76,"mb2":75,"mb3":75,"mbAve":76,"sbp1":135,"sbp2":145,"sbp3":130,"sbpAve":130,"stydjcTimes1":"0","stydjcTimes2":"0","stydjcTimes3":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1976-08-29","jykh":"","jyklx":"1","meterNo":"1701921","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"310226197608291125","sourceId":"02","stationId":"000","xb":"2","xm":"用户31910"} 
+ 2021-02-04 12:58:00 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"9a1cad92a2f5435e80708640f15333e8"} 
+ 2021-02-04 12:58:01 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","bgzmbjcTimes3":"0","clsb":"1","dbp1":79,"dbp2":84,"dbp3":76,"dbpAve":76,"finishTime1":"2021-02-04 13:04:20","finishTime2":"2021-02-04 13:01:44","finishTime3":"2021-02-04 13:03:02","mb1":77,"mb2":76,"mb3":77,"mbAve":76,"sbp1":171,"sbp2":169,"sbp3":175,"sbpAve":169,"stydjcTimes1":"0","stydjcTimes2":"0","stydjcTimes3":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1940-10-24","jykh":"T13242747","jyklx":"0","meterNo":"1701928","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"310226194010241824","sourceId":"02","stationId":"000","xb":"2","xm":"金秀林"} 
+ 2021-02-04 12:58:01 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"552382f4c58543faa394e1994b562547"} 
+ 2021-02-04 12:58:02 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:59:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 12:59:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 13:00:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 13:00:00 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","clsb":"1","dbp1":79,"dbp2":80,"dbpAve":77,"finishTime1":"2021-02-04 12:59:37","finishTime2":"2021-02-04 12:58:27","mb1":120,"mb2":119,"mbAve":120,"sbp1":153,"sbp2":153,"sbpAve":152,"stydjcTimes1":"0","stydjcTimes2":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1972-12-23","jykh":"5002578699","jyklx":"1","meterNo":"1702135","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"511023197212234069","sourceId":"02","stationId":"000","xb":"2","xm":"黄佐红"} 
+ 2021-02-04 13:00:00 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"4f97900deb004385a4c9e4740d095881"} 
+ 2021-02-04 13:00:01 c.h.c.j.PressureJob 298 [INFO] 请求参数 :{"clDate":"2021-02-04","clff":"1","cljgList":[{"bgzmbjcTimes1":"0","bgzmbjcTimes2":"0","clsb":"2","dbp1":71,"dbp2":70,"dbpAve":72,"finishTime1":"2021-02-04 12:49:30","finishTime2":"2021-02-04 12:48:24","mb1":97,"mb2":97,"mbAve":96,"sbp1":121,"sbp2":121,"sbpAve":120,"stydjcTimes1":"0","stydjcTimes2":"0"}],"clysNm":"XXX","clysNo":"0","csDate":"1947-10-07","jykh":"P03672250","jyklx":"0","meterNo":"9000004","meterType":"AND:TM-2656VP","org":"42505784600","sfzhm":"310102194710074864","sourceId":"02","stationId":"000","xb":"2","xm":"张巧玲"} 
+ 2021-02-04 13:00:01 c.h.c.j.PressureJob 305 [INFO] 返回结果 :{"errno":"0","errMsg":"success","cljgNo":"2045157b38244740a9e41fc690a15ecb"} 
+ 2021-02-04 13:00:02 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 13:01:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 2021-02-04 13:01:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 13:02:00 c.h.c.j.PressureJob 42 [INFO] 血压定时器启动
+ 2021-02-04 13:02:00 c.h.c.j.GlucoseJob 32 [INFO] 血糖定时器启动
+ 
